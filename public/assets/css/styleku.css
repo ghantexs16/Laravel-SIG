@@ -1,0 +1,42 @@
+.logo{
+        		background: white;
+        		width: 90px;
+        		height: 80px;
+                        padding-top:5px;
+                        padding-left: 5px;
+                        padding-right: 5px;
+        		position: absolute;
+        		border-bottom-left-radius: 10px;
+        		border-bottom-right-radius: 10px;
+        	}
+
+        	.logo img{
+        		width: 80px;
+                        height: 70px;
+        	}
+
+        	#wrap {
+			  	min-height: 100%;
+			  	height: auto !important;
+			  	height: 100%;
+			  	/* Negative indent footer by its height */
+			  	margin: 0 auto -60px;
+			  	/* Pad bottom by footer height */
+			  	padding: 0 0 60px;
+			}
+
+			/* Set the fixed height of the footer here */
+			#footer {
+			  	height: 60px;
+			  	background-color: #404143;
+			}
+
+                        body.modal-open #wrap{
+                            -webkit-filter: blur(7px);
+                            -moz-filter: blur(15px);
+                            -o-filter: blur(15px);
+                            -ms-filter: blur(15px);
+                            filter: blur(15px);
+                        }
+
+                        .modal-backdrop {background: #f7f7f7;}
